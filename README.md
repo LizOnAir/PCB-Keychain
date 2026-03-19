@@ -1,6 +1,6 @@
 # PCB Keychain
 
-This keychain have a NT3H2111W0FHKH chip and a LED. It act as a RFID tag.
+This keychain have a NFC chip and a LED. It act as a RFID tag, which use [NFC tools](https://apps.apple.com/my/app/nfc-tools/id1252962749) to program the NFC chip.
 
 ## Features:
 - RFID tag to carry url
@@ -24,11 +24,10 @@ I also follow these design guide: [design guide 1](https://www.nxp.com/docs/en/a
 <img width="432" height="634" alt="image" src="https://github.com/user-attachments/assets/1e6a91fe-6530-4a21-b5ee-6f19aba757e3" />
 <img width="615" height="634" alt="image" src="https://github.com/user-attachments/assets/c7a913d9-f5e9-4060-b753-6c4f0e1a69eb" />
 
-
 ## BOM:
 Here should be [everything]([https://docs.google.com/spreadsheets/d/1zaCOEk-ZGnszMIk4FFVV_LndeX-SJLxj8WLiJESGuGM/edit?gid=0#gid=0](https://docs.google.com/spreadsheets/d/1KiuXZSORq6o1wyT1NHcNB7JtL9FbZkCRXqoJQaos5Fs/edit?usp=sharing)) you need to make this keychain
 
 - 1x 220nF capacitor
 - 1x 51 ohm resistor
-- 1x LED
-- 1x NT3H2111W0FHKH	chip
+- 1x 2V LED
+- 1x NT3H2111W0FHKH	NFC chip
