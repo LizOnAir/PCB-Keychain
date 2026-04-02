@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0402,1,220nF,
+D1,0603,1,LED,
+L1,Antenna_8500000x5500000mm,1,L,
+R1,0603,1,47,
+U1,XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH,1,13.56MHz,
