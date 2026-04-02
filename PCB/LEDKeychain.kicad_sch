@@ -919,23 +919,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 57.15) (xy 73.66 57.15)
+			(xy 80.01 57.15) (xy 73.66 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f9701e7-b438-4de1-af1e-f21ec811b3fa")
-	)
-	(wire
-		(pts
-			(xy 90.17 57.15) (xy 100.33 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ecd0cb-7169-4296-8334-8ee04e3f738a")
 	)
 	(wire
 		(pts
@@ -966,6 +956,16 @@
 			(type default)
 		)
 		(uuid "2a0d1379-619d-41ff-ad5a-dd6230bf4ac2")
+	)
+	(wire
+		(pts
+			(xy 87.63 57.15) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d4733f-294f-455c-83cc-3c24664e31af")
 	)
 	(wire
 		(pts
@@ -1346,7 +1346,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 86.36 57.15 90)
+		(at 83.82 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1355,7 +1355,7 @@
 		(fields_autoplaced yes)
 		(uuid "53ab1aea-29b1-47bc-bdcd-4fc7f22586c6")
 		(property "Reference" "L1"
-			(at 86.36 52.07 90)
+			(at 83.82 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,15 +1363,15 @@
 			)
 		)
 		(property "Value" "L"
-			(at 86.36 54.61 90)
+			(at 83.82 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Antenna:Antenna_10x7mm"
-			(at 86.36 57.15 0)
+		(property "Footprint" "Antenna:Antenna_8500000x5500000mm"
+			(at 83.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 57.15 0)
+			(at 83.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1389,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 86.36 57.15 0)
+			(at 83.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1429,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "47"
 			(at 93.472 100.33 90)
 			(effects
 				(font
